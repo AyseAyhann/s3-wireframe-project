@@ -1,8 +1,80 @@
 /* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
+#header{
+    width: 750px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    padding:80px;
+    color:white;
+}
 
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
-/* #menu linklerine hover yapıldığında arka plan rengi: #000 */
 /* #menu linklerinin padding değeri: 20px */
+#menu{
+    display: flex;
+    background-color: #777;
+}
+#menu a{
+    background-color:  #777;
+    padding: 20px;
+    color:white;
+
+}
+/* #menu linklerine hover yapıldığında arka plan rengi: #000 */
+#menu a:hover{
+    background-color: #000;
+}
+
+
+#gallery{
+    display: flex;
+    justify-content: space-between;
+    width:750px;
+}
+
+#gallery img{
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+}
+#gallery p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer{
+    display:block;
+    background-color: #777;
+    padding:30px;
+    width:750px;
+    text-align: center;
+}
+#footer button{
+    background-color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
 
 /* #footer butonu metni 'Başa dön' olmalı */
